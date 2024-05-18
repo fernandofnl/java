@@ -21,7 +21,7 @@ public class Exer06CadastroAluno {
         System.out.printf("Informe seu nome: ");
         nome = sc.nextLine();
         System.out.print("Idade: ");
-        idade = sc.nextInt();
+        idade = sc.nextInt(); // Tipo int, float e double deixam lixo de memória
         sc.nextLine(); // Limpar o buffer do teclado
         System.out.print("Gênero: ");
         genero = sc.nextLine();
