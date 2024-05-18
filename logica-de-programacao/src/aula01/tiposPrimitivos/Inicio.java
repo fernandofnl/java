@@ -1,8 +1,17 @@
-package exercicios;
+package aula01.tiposPrimitivos;
 
-public class Exercicio01 {
+public class Inicio {
 
     public static void main(String[] args) {
+
+        //byte
+        //short
+        //int
+        //long
+        //float (1.35F)
+        //double
+        //char
+        //String
 
         String gameRPG = "Hogwarts Legacy";
         String gameIndie = "Hollow Knight";
@@ -27,7 +36,7 @@ public class Exercicio01 {
 
         System.out.println("O comprador tinha " + age + " anos, code " + code + " e genero: " + gender);
         System.out.println("Média de valor de R$" + media);
-        System.out.printf("Média de valor de R$%f.2%n", media);
+        System.out.printf("Média de valor de R$%.2f%n", media);
         System.out.println("Média do valor arredondado: R$" + media_pracima);
         System.out.println("Média do valor arredondado: R$" + media_prabaixo);
         System.out.println("Média do valor arredondado: R$" + media_round);
@@ -35,6 +44,11 @@ public class Exercicio01 {
 
         System.out.printf("Idade %d codigo %d genero: %s%n", age, code, gender);
         // %n é para quebra de linha
-    }
 
+
+
+
+
+
+    }
 }
